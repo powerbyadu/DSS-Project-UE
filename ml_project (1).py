@@ -34,7 +34,6 @@ MODIS + Sentinel Satellite Data → Data Fusion Engine → Advanced ML / Deep Le
 * geemap - geemap allows the project to visualize and explore MODIS satellite data directly from Earth Engine on interactive maps. It helps display layers like fire detections, vegetation indices, or temperature over specific regions, making satellite analysis and results easy to understand without downloading large datasets.
 """
 
-!pip install sentinelhub
 !pip install xgboost
 !pip install earthengine-api
 !pip install rasterio
